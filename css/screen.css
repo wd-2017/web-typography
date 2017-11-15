@@ -130,6 +130,29 @@ video.portrait {
   3. Organized by Base, Layout, Module, State
 */
 
+.wf-active {
+  font-family: 'Merriweather', serif;
+}
+.wf-active h1 {
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+.wf-active .fractions {
+  font-variant-numeric: diagonal-fractions;
+  -moz-font-feature-settings: "frac";
+  -webkit-font-feature-settings: "frac";
+  font-feature-settings: "frac";
+}
+.wf-active .small-caps,
+.wf-active .small-caps-from-caps abbr {
+  font-variant-caps: all-small-caps;
+  -moz-font-feature-settings: "c2sc", "smcp";
+  -webkit-font-feature-settings: "c2sc", "smcp";
+  font-feature-settings: "c2sc", "smcp";
+}
+
 .is-highlighted {
   background: pink;
   transition: background 3s;
