@@ -21,7 +21,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?18&px&1.333
 */
 html {
-  font-family: 'Merriweather', Cambria, Georgia, serif;
+  font-family: 'EB Garamond', Cambria, Georgia, serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -131,7 +131,7 @@ video.portrait {
 */
 
 .wf-active {
-  font-family: 'Merriweather', serif;
+  font-family: 'EB Garamond', serif;
 }
 .wf-active h1 {
   font-variant-numeric: lining-nums;
